@@ -1,0 +1,49 @@
+{
+    "coord": {
+        "lon": -79.1423,
+        "lat": 37.4138
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 77.02,
+        "feels_like": 78.31,
+        "temp_min": 75.18,
+        "temp_max": 77.67,
+        "pressure": 1017,
+        "humidity": 83,
+        "sea_level": 1017,
+        "grnd_level": 991
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 0,
+        "deg": 0
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1753506002,
+    "sys": {
+        "type": 2,
+        "id": 2102010,
+        "country": "US",
+        "sunrise": 1753524961,
+        "sunset": 1753576193
+    },
+    "timezone": -14400,
+    "id": 4771075,
+    "name": "Lynchburg",
+    "cod": 200,
+    "timestamp_est": "2025-07-26T01:00:02.423048-04:00",
+    "data_dt_est": "2025-07-26T01:00:02-04:00",
+    "sunrise_est": "2025-07-26T06:16:01-04:00",
+    "sunset_est": "2025-07-26T20:29:53-04:00"
+}
