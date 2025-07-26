@@ -2,16 +2,16 @@
 
 Overview: 
 	
- This project pulls weather data from the OpenWeather API every 15 minutes, writes it to a PostgreSQL database, saves a daily CSV summary just after midnight, and auto-pushes everything to GitHub. It is 	running 24/7 on a GCP virtual machine I configured myself. I built this pipeline to sharpen my data engineering skills with real automation and version control.
+This project pulls weather data from the OpenWeather API every 15 minutes, writes it to a PostgreSQL database, saves a daily CSV summary just after midnight, and auto-pushes everything to GitHub. It is running 24/7 on a GCP virtual machine I configured myself. I built this pipeline to sharpen my data engineering skills with real automation and version control.
 
 Tech Stack:
 	
   - Python (no external packages — just requests, json, csv, and psycopg2)
-	- PostgreSQL for structured data storage
-	- Google Cloud Platform (VM instance running 24/7)
-	- Cron Jobs for scheduling scripts
-	- Bash scripting for Git automation
-	- Git & GitHub for version control and cloud syncing
+  - PostgreSQL for structured data storage
+  - Google Cloud Platform (VM instance running 24/7)
+  - Cron Jobs for scheduling scripts
+  - Bash scripting for Git automation
+  - Git & GitHub for version control and cloud syncing
 
 How It Works:
   
@@ -36,7 +36,7 @@ File Structure:
 	  ├── requirements.txt         # Python package requirements
 	  └── venv/                    # Virtual environment folder
 ```
-Sample Output from them daily CSV:
+Sample Output from the Daily CSV:
 ```
   date		time	temp	feels_like	humidity	pressure	wind_speed
   2025-07-25	19:15	90.97	102.67		61		1016		4.61
@@ -46,17 +46,17 @@ Sample Output from them daily CSV:
   2025-07-25	20:15	87.19	99.09		72		1017		3.44
 ```
 Why This Project Matters:
-	
-  This pipeline runs unsupervised 24/7. It handles:
 
-  - API interaction
-  - Database ingestion
-  - Time-based job scheduling
-  - CSV export and data archiving
-  - GitHub automation
-  - Real-world ETL with zero manual work
+  - This pipeline runs unsupervised 24/7
+  - It handles:
+  	- API interaction
+  	- Database ingestion
+  	- Time-based job scheduling
+  	- CSV export and data archiving
+  	- GitHub automation
+  	- Real-world ETL with zero manual work
 
 Next Steps:
 	
   - Add visualization/dashboard layer
-	- Extend to multiple cities or metrics
+  - Extend to multiple cities or metrics
