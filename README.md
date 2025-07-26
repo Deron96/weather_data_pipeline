@@ -25,7 +25,7 @@ How It Works:
   A bash script (auto_push.sh) stages all changes, commits them with a timestamp, and pushes the update to GitHub automatically. This includes the new daily CSV and logs.
 
 File Structure:
-  
+```  
   weather_pipeline/
 	  ├── data/                    # Stores raw JSON + daily CSVs
 	  ├── logs/                    # Fetch and push logs
@@ -35,16 +35,16 @@ File Structure:
 	  ├── .gitignore               # Keeps logs, backups, and secrets untracked
 	  ├── requirements.txt         # Python package requirements
 	  └── venv/                    # Virtual environment folder
-
+```
 Sample Output from them daily CSV:
-
+```
   date		time	temp	feels_like	humidity	pressure	wind_speed
   2025-07-25	19:15	90.97	102.67		61		1016		4.61
   2025-07-25	19:30	90.97	102.67		61		1016		4.61
   2025-07-25	19:45	88.54	101.14		73		1016		2.46
   2025-07-25	20:00	87.57	100.17		75		1016		2.46
   2025-07-25	20:15	87.19	99.09		72		1017		3.44
-
+```
 Why This Project Matters:
 	
   This pipeline runs unsupervised 24/7. It handles:
