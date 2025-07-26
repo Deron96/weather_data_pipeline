@@ -3,6 +3,6 @@ __pycache__/
 *.pyc
 .env
 # Ignore backup scripts
-fetch_weather_backup.py
-daily_records_backup.py
-auto_push_backup.sh
+*_backup.py
+*_backup.sh
+
