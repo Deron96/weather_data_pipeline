@@ -6,7 +6,7 @@ This project pulls weather data from the OpenWeather API every 15 minutes, write
 
 Tech Stack:
 	
-  - Python (no external packages — just requests, json, csv, and psycopg2)
+  - Python (standard libraries: json, csv, os; external packages: requests, psycopg2, dotenv, pytz)
   - PostgreSQL for structured data storage
   - Google Cloud Platform (VM instance running 24/7)
   - Cron Jobs for scheduling scripts
