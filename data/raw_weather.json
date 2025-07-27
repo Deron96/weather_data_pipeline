@@ -17,9 +17,9 @@
         "feels_like": 76.57,
         "temp_min": 74.68,
         "temp_max": 77.2,
-        "pressure": 1018,
+        "pressure": 1019,
         "humidity": 77,
-        "sea_level": 1018,
+        "sea_level": 1019,
         "grnd_level": 992
     },
     "visibility": 10000,
@@ -30,7 +30,7 @@
     "clouds": {
         "all": 0
     },
-    "dt": 1753593091,
+    "dt": 1753594036,
     "sys": {
         "type": 2,
         "id": 2102010,
@@ -42,8 +42,8 @@
     "id": 4771075,
     "name": "Lynchburg",
     "cod": 200,
-    "timestamp_est": "2025-07-27T01:15:02.114408-04:00",
-    "data_dt_est": "2025-07-27T01:11:31-04:00",
+    "timestamp_est": "2025-07-27T01:30:02.144441-04:00",
+    "data_dt_est": "2025-07-27T01:27:16-04:00",
     "sunrise_est": "2025-07-27T06:16:50-04:00",
     "sunset_est": "2025-07-27T20:29:04-04:00"
 }
