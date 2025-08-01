@@ -5,45 +5,45 @@
     },
     "weather": [
         {
-            "id": 800,
-            "main": "Clear",
-            "description": "clear sky",
-            "icon": "01n"
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
         }
     ],
     "base": "stations",
     "main": {
-        "temp": 76.89,
-        "feels_like": 78.04,
-        "temp_min": 75.18,
-        "temp_max": 77.67,
+        "temp": 76.37,
+        "feels_like": 77.38,
+        "temp_min": 74.77,
+        "temp_max": 76.66,
         "pressure": 1016,
-        "humidity": 80,
+        "humidity": 78,
         "sea_level": 1016,
         "grnd_level": 990
     },
     "visibility": 10000,
     "wind": {
-        "speed": 0,
-        "deg": 0
+        "speed": 3.44,
+        "deg": 360
     },
     "clouds": {
-        "all": 0
+        "all": 75
     },
-    "dt": 1753938682,
+    "dt": 1754025301,
     "sys": {
         "type": 2,
         "id": 2102010,
         "country": "US",
-        "sunrise": 1753957209,
-        "sunset": 1754007934
+        "sunrise": 1754043660,
+        "sunset": 1754094278
     },
     "timezone": -14400,
     "id": 4771075,
     "name": "Lynchburg",
     "cod": 200,
-    "timestamp_est": "2025-07-31T01:15:02.117984-04:00",
-    "data_dt_est": "2025-07-31T01:11:22-04:00",
-    "sunrise_est": "2025-07-31T06:20:09-04:00",
-    "sunset_est": "2025-07-31T20:25:34-04:00"
+    "timestamp_est": "2025-08-01T01:15:01.665708-04:00",
+    "data_dt_est": "2025-08-01T01:15:01-04:00",
+    "sunrise_est": "2025-08-01T06:21:00-04:00",
+    "sunset_est": "2025-08-01T20:24:38-04:00"
 }
